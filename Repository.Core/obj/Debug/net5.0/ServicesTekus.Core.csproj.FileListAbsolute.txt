@@ -1,0 +1,12 @@
+D:\Trabajo\ServicesTekus\ServicesTekus\Repository.Core\bin\Debug\net5.0\ServicesTekus.Core.deps.json
+D:\Trabajo\ServicesTekus\ServicesTekus\Repository.Core\bin\Debug\net5.0\ServicesTekus.Core.dll
+D:\Trabajo\ServicesTekus\ServicesTekus\Repository.Core\bin\Debug\net5.0\ref\ServicesTekus.Core.dll
+D:\Trabajo\ServicesTekus\ServicesTekus\Repository.Core\bin\Debug\net5.0\ServicesTekus.Core.pdb
+D:\Trabajo\ServicesTekus\ServicesTekus\Repository.Core\obj\Debug\net5.0\ServicesTekus.Core.csproj.AssemblyReference.cache
+D:\Trabajo\ServicesTekus\ServicesTekus\Repository.Core\obj\Debug\net5.0\ServicesTekus.Core.GeneratedMSBuildEditorConfig.editorconfig
+D:\Trabajo\ServicesTekus\ServicesTekus\Repository.Core\obj\Debug\net5.0\ServicesTekus.Core.AssemblyInfoInputs.cache
+D:\Trabajo\ServicesTekus\ServicesTekus\Repository.Core\obj\Debug\net5.0\ServicesTekus.Core.AssemblyInfo.cs
+D:\Trabajo\ServicesTekus\ServicesTekus\Repository.Core\obj\Debug\net5.0\ServicesTekus.Core.csproj.CoreCompileInputs.cache
+D:\Trabajo\ServicesTekus\ServicesTekus\Repository.Core\obj\Debug\net5.0\ServicesTekus.Core.dll
+D:\Trabajo\ServicesTekus\ServicesTekus\Repository.Core\obj\Debug\net5.0\ref\ServicesTekus.Core.dll
+D:\Trabajo\ServicesTekus\ServicesTekus\Repository.Core\obj\Debug\net5.0\ServicesTekus.Core.pdb

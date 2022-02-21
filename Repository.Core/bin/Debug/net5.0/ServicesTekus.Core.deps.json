@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v5.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v5.0": {
+      "ServicesTekus.Core/1.0.0": {
+        "runtime": {
+          "ServicesTekus.Core.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "ServicesTekus.Core/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

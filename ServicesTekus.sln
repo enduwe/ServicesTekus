@@ -1,0 +1,54 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31321.278
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ServicesTekus", "ServicesTekus\ServicesTekus.csproj", "{A9BB4147-D56F-474F-9BBD-CB8777B6C9F6}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ServicesTekus.Repository", "ServicesTekus.Repository\ServicesTekus.Repository.csproj", "{B47A541D-1E44-4906-B659-80FBED21C190}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ServicesTekus.Core", "Repository.Core\ServicesTekus.Core.csproj", "{533F09C9-0FD4-4FBA-B85D-89F9CC2751A3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Test", "Test", "{AAC34773-A251-4851-A064-7829D2EC3514}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ServicesTekus.Test", "ServicesTekus.Test\ServicesTekus.Test.csproj", "{F8D14B18-4ABB-4D58-8F04-8BF2165100DC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ServicesTekus.WebApp", "ServicesTekus.WebApp\ServicesTekus.WebApp.csproj", "{D5FBE70D-66CC-4DBF-BE30-2F95CC726894}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A9BB4147-D56F-474F-9BBD-CB8777B6C9F6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A9BB4147-D56F-474F-9BBD-CB8777B6C9F6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A9BB4147-D56F-474F-9BBD-CB8777B6C9F6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A9BB4147-D56F-474F-9BBD-CB8777B6C9F6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B47A541D-1E44-4906-B659-80FBED21C190}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B47A541D-1E44-4906-B659-80FBED21C190}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B47A541D-1E44-4906-B659-80FBED21C190}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B47A541D-1E44-4906-B659-80FBED21C190}.Release|Any CPU.Build.0 = Release|Any CPU
+		{533F09C9-0FD4-4FBA-B85D-89F9CC2751A3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{533F09C9-0FD4-4FBA-B85D-89F9CC2751A3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{533F09C9-0FD4-4FBA-B85D-89F9CC2751A3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{533F09C9-0FD4-4FBA-B85D-89F9CC2751A3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F8D14B18-4ABB-4D58-8F04-8BF2165100DC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F8D14B18-4ABB-4D58-8F04-8BF2165100DC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F8D14B18-4ABB-4D58-8F04-8BF2165100DC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F8D14B18-4ABB-4D58-8F04-8BF2165100DC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D5FBE70D-66CC-4DBF-BE30-2F95CC726894}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D5FBE70D-66CC-4DBF-BE30-2F95CC726894}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D5FBE70D-66CC-4DBF-BE30-2F95CC726894}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D5FBE70D-66CC-4DBF-BE30-2F95CC726894}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{F8D14B18-4ABB-4D58-8F04-8BF2165100DC} = {AAC34773-A251-4851-A064-7829D2EC3514}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {9FF57643-5ACE-4E71-AE5D-DE826382A96C}
+	EndGlobalSection
+EndGlobal
