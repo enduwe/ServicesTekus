@@ -5,10 +5,8 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="Interface\" />
-    <Folder Include="DTOs\" />
-    <Folder Include="Entities\" />
     <Folder Include="Filters\" />
+    <Folder Include="Data\" />
   </ItemGroup>
 
 </Project>

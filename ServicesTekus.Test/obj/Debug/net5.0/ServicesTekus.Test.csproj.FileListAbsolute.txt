@@ -88,7 +88,6 @@ D:\Trabajo\ServicesTekus\ServicesTekus\ServicesTekus.Test\bin\Debug\net5.0\zh-Ha
 D:\Trabajo\ServicesTekus\ServicesTekus\ServicesTekus.Test\bin\Debug\net5.0\zh-Hant\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
 D:\Trabajo\ServicesTekus\ServicesTekus\ServicesTekus.Test\bin\Debug\net5.0\zh-Hant\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
 D:\Trabajo\ServicesTekus\ServicesTekus\ServicesTekus.Test\bin\Debug\net5.0\zh-Hant\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
-D:\Trabajo\ServicesTekus\ServicesTekus\ServicesTekus.Test\obj\Debug\net5.0\ServicesTekus.Test.csproj.AssemblyReference.cache
 D:\Trabajo\ServicesTekus\ServicesTekus\ServicesTekus.Test\obj\Debug\net5.0\ServicesTekus.Test.GeneratedMSBuildEditorConfig.editorconfig
 D:\Trabajo\ServicesTekus\ServicesTekus\ServicesTekus.Test\obj\Debug\net5.0\ServicesTekus.Test.AssemblyInfoInputs.cache
 D:\Trabajo\ServicesTekus\ServicesTekus\ServicesTekus.Test\obj\Debug\net5.0\ServicesTekus.Test.AssemblyInfo.cs

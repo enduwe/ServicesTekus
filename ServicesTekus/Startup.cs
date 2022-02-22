@@ -8,7 +8,10 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
 using Microsoft.OpenApi.Models;
+using ServicesTekus.Controllers;
+using ServicesTekus.Core.Interface;
 using ServicesTekus.Repository.Data;
+using ServicesTekus.Repository.Model;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -37,6 +40,11 @@ namespace ServicesTekus
             });
 
             services.AddDbContext<ServicesTekusContext>(options => options.UseSqlServer(Configuration.GetConnectionString("ServicesTekusContext")));
+
+            // Se Agregan las dependencias
+            services.AddTransient<IServicesTekus, ServicesTekusRepository>(); 
+
+            services.AddAutoMapper(AppDomain.CurrentDomain.GetAssemblies());
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

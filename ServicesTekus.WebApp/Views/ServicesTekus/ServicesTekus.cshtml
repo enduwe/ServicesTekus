@@ -1,0 +1,98 @@
+﻿@model ServicesTekus.WebApp.Models.ServicesTekusViewModel
+@{
+    ViewData["Title"] = "ServicesTekus";
+}
+
+
+<h1> Crear Servicio </h1>
+
+<div class="uif-modal" id="Create">
+    <div class="uif-modalbody">
+
+        <form action="ServicesTekus" method="post">
+            <div class="row">
+                <div class="from-group">
+                    <label class="control-label"> Nombre del Servicio:  </label>
+                    <br />
+                    <input asp-for="Name" type="text" id="Servicio" placeholder="Nombre servicio">
+
+                </div>
+            </div>
+            <br />
+
+            <div class="row">
+                <div class="from-group">
+                    <label class="control-label"> Valor del Servicio:        </label>
+                    <br />
+                    <input asp-for="Price" type="text" id="Precio" placeholder="Precio servicio.">
+
+                </div>
+            </div>
+            <br />
+
+
+            <div class="row">
+                <div class="from-group">
+                    <label class="control-label" style="text-decoration:double "> Country </label>
+                    <br />
+
+                    <select asp-for="Id_Country" class="form-control" id="Country" asp-items="@(new SelectList(@ViewBag.Countrys, "Value","Text"))">
+                        <option>--- Select ---</option>
+                    </select>
+
+                </div>
+            </div>
+            <br />
+
+
+            <div class="row">
+                <div class="from-group">
+                    <label class="control-label"> Proveedor </label>
+                    <br />
+                    <select asp-for="Id_Provider" class="form-control" id="selectCountry" asp-items="@(new SelectList(@ViewBag.Providers, "Value","Text"))">
+                        <option>--- Select ---</option>
+                    </select>
+
+                </div>
+            </div>
+            <br />
+
+            <div class="row">
+                <div class="from-group">
+                    <button type="button" class="btn btn-default btn-xs">
+                        <span class=".glyphicon .glyphicon-plus"></span>
+                    </button>
+                    <label class="control-label">              Agregar Campos                </label>
+
+                </div>
+            </div>
+            <br />
+
+
+
+
+
+
+
+
+            <div class="uif-modalbuttons width-save">
+                <input type="submit" value="Create" class="btn btn-primary  btn-main" id="btnGuardar">
+            </div>
+
+            <br />
+
+            <br />
+            <br />
+
+            <div class="row">
+                <div class="from-group">
+                    <label class="control-label"> @ViewData["menssage"]  </label>
+                    <br />
+                   
+
+                </div>
+            </div>
+            
+        </form>
+    </div>
+</div>
